@@ -1,7 +1,108 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>My GitHub Projects</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<style>
+		.project-thumbnail {
+			height: 200px;
+			object-fit: cover;
+			margin-bottom: 20px;
+		}
+
+		.project-name {
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		.project-description {
+			margin-bottom: 20px;
+		}
+
+		.cta-button {
+			margin-top: 20px;
+		}
+	</style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">My GitHub Projects</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">GitHub Profile</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Project Files</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Other Projects</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+	<div class="container mt-5">
+		<h1>My Projects</h1>
+		<div class="row mt-4">
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top project-thumbnail" src="https://via.placeholder.com/350x200" alt="Project thumbnail">
+					<div class="card-body">
+						<h5 class="card-title project-name">Project 1</h5>
+						<p class="card-text project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+						<a href="#" class="btn btn-primary cta-button">View Project</a>
+					</div>
+				</div>
+			</div>
+					<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top project-thumbnail" src="https://via.placeholder.com/350x200" alt="Project thumbnail">
+				<div class="card-body">
+					<h5 class="card-title project-name">Project 2</h5>
+					<p class="card-text project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+					<a href="#" class="btn btn-primary cta-button">View Project</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top project-thumbnail" src="https://via.placeholder.com/350x200" alt="Project thumbnail">
+				<div class="card-body">
+					<h5 class="card-title project-name">Project 3</h5>
+					<p class="card-text project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+					<a href="#" class="btn btn-primary cta-button">View Project</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="bg-light py-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<p>Follow me on social media:</p>
+				<ul class="list-unstyled">
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Instagram</a></li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<p>Contact me:</p>
+				<p>Email: info@example.com</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
+
